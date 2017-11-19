@@ -1,0 +1,29 @@
+{
+  "name": "mokker-utils",
+  "version": "0.0.1",
+  "description": "Just a handful of utilities shared between some projects",
+  "main": "./dist/index.js",
+  "author": "Cory Logan",
+  "license": "MIT",
+  "private": false,
+  "repository": "https://github.com/counterbeing/mokker-utils",
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "6",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "scripts": {
+    "test": "mocha --require babel-core/register",
+    "ww": "webpack --watch",
+    "w": "webpack"
+  }
+}

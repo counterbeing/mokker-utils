@@ -1,0 +1,6 @@
+###AdBox300
+##.footer-advertising-area
+##a[href^="http://www.urmediazone.com/signup"]
+##.__zinit .__y_item
+##.trc_rbox .syndicatedItem
+###content > #center > .dose > .dosesingle

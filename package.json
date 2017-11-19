@@ -1,8 +1,8 @@
 {
   "name": "mokker-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Just a handful of utilities shared between some projects",
-  "main": "./index-bundle.js",
+  "main": "./dist/index.js",
   "author": "Cory Logan",
   "license": "MIT",
   "private": false,
@@ -22,6 +22,7 @@
     "webpack-node-externals": "^1.6.0"
   },
   "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
     "test": "mocha --require babel-core/register",
     "ww": "webpack --watch",
     "w": "webpack"

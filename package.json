@@ -1,8 +1,8 @@
 {
   "name": "mokker-utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Just a handful of utilities shared between some projects",
-  "main": "./dist/index.js",
+  "main": "./index-bundle.js",
   "author": "Cory Logan",
   "license": "MIT",
   "private": false,

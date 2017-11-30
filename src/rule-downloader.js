@@ -7,7 +7,7 @@ const url = 'https://raw.githubusercontent.com/easylist/easylist/master/easylist
 const fileName = 'easylist_general_hide.txt'
 
 const validRulesAlreadyExist = async (path)  => {
-  if (!await fs.pathExists(path)) return false
+  if(!(await fs.pathExists(path))) return false
   let startTime
   await fs.stat(path, (err, stats) => startTime = moment(stats.mtime))
   let endTime  = moment(new Date())
@@ -16,7 +16,7 @@ const validRulesAlreadyExist = async (path)  => {
   return false
 }
 
-const downloadRules = async (opts) => {
+const ruleDownloader = async (opts) => {
   console.log('Checking on rules file.')
   let filePath
   if (opts && opts.dir) {
@@ -40,4 +40,4 @@ const downloadRules = async (opts) => {
   }
 }
 
-export default downloadRules
+export default {}

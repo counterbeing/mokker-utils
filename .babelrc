@@ -1,16 +1,9 @@
 {
   "presets": [
-    [ "env", {"targets": { "node": "current" }} ],
-    "stage-2",
-    "es2015"
-  ],
-
-  "env": {
-    "test": {
-      "plugins": [
-        ["__coverage__", {"ignore": "*.+(test|stub).*"}],
-        "transform-object-rest-spread"
-      ]
-    }
-  }
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ]
 }

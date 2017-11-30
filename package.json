@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.0.0-beta.32",
     "@babel/register": "^7.0.0-beta.32",
     "chai": "^4.1.2",
-    "eslint": "^4.11.0",
+    "eslint": "^4.12.1",
     "mocha": "^4.0.1",
     "webpack": "^3.8.1",
     "webpack-node-externals": "^1.6.0"
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-eslint": "^8.0.2",
     "fs-extra": "^4.0.2",
     "lodash": "^4.17.4",
     "moment": "^2.19.3"

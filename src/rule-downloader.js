@@ -40,4 +40,4 @@ const ruleDownloader = async (opts) => {
   }
 }
 
-export default {}
+export default ruleDownloader

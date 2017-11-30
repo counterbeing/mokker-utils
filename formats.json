@@ -1,0 +1,29 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1600,
+      "height": 1200,
+      "isMobile": false,
+      "isLandscape": false
+    }
+  },
+  {
+    "name": "iPhone7PlusPortrait",
+    "viewport": {
+      "width": 414,
+      "height": 736,
+      "isMobile": true,
+      "isLandscape": false
+    }
+  },
+  {
+    "name": "iPhone7PlusLandscape",
+    "viewport": {
+      "width": 736,
+      "height": 414,
+      "isMobile": true,
+      "isLandscape": true
+    }
+  }
+]

@@ -1,5 +1,7 @@
 import fs from 'fs'
+import { resolve } from 'path'
 
-const formats = JSON.parse(fs.readFileSync('./src/formats.json', 'utf8'))
+let file = resolve(__dirname, '..', 'formats.json')
+const formats = JSON.parse(fs.readFileSync(file, 'utf8'))
 
 export default formats

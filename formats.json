@@ -1,6 +1,7 @@
 [
   {
     "name": "desktop",
+    "prettyName": "Desktop",
     "viewport": {
       "width": 1600,
       "height": 1200,
@@ -10,6 +11,7 @@
   },
   {
     "name": "iPhone7PlusPortrait",
+    "prettyName": "iPhone 7 Portrait",
     "viewport": {
       "width": 414,
       "height": 736,
@@ -18,7 +20,18 @@
     }
   },
   {
+    "name": "tablet",
+    "prettyName": "Tablet Portrait",
+    "viewport": {
+      "width": 768,
+      "height": 1024,
+      "isMobile": true,
+      "isLandscape": true
+    }
+  },
+  {
     "name": "iPhone7PlusLandscape",
+    "prettyName": "iPhone 7 Landscape",
     "viewport": {
       "width": 736,
       "height": 414,

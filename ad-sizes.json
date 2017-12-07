@@ -1,0 +1,55 @@
+[
+  {
+    "width": 250,
+    "height": 250,
+    "name": "Square"
+  },
+  {
+    "width": 200,
+    "height": 200,
+    "name": "Small Square"
+  },
+  {
+    "width": 468,
+    "height": 60,
+    "name": "Banner"
+  },
+  {
+    "width":300 ,
+    "height": 250,
+    "name": "Inline Rectangle"
+  },
+  {
+    "width": 728,
+    "height": 90,
+    "name": "Leaderboard"
+  },
+  {
+    "width": 336,
+    "height": 280,
+    "name": "Large Rectangle"
+  },
+  {
+    "width": 120,
+    "height": 600,
+    "name": "Skyscraper"
+  },
+  {
+    "width": 160,
+    "height": 600,
+    "name": "Wide Skyscraper",
+    "formatBlacklist": ["iPhone7PlusPortrait", "iPhone7PlusLandscape"]
+  },
+  {
+    "width": 300,
+    "height": 600,
+    "name": "Half-Page Ad",
+    "formatBlacklist": ["iPhone7PlusPortrait", "iPhone7PlusLandscape"]
+  },
+  {
+    "width": 970,
+    "height": 90,
+    "name": "Large Leaderboard",
+    "formatBlacklist": ["iPhone7PlusPortrait", "iPhone7PlusLandscape"]
+  }
+]

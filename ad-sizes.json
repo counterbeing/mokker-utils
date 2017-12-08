@@ -25,6 +25,12 @@
     "name": "Leaderboard"
   },
   {
+    "width": 320,
+    "height": 50,
+    "name": "Mobile Leaderboard",
+    "formatBlacklist": ["desktop"]
+  },
+  {
     "width": 336,
     "height": 280,
     "name": "Large Rectangle"
@@ -32,7 +38,8 @@
   {
     "width": 120,
     "height": 600,
-    "name": "Skyscraper"
+    "name": "Skyscraper",
+    "formatBlacklist": ["iPhone7PlusPortrait", "iPhone7PlusLandscape"]
   },
   {
     "width": 160,

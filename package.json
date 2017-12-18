@@ -1,6 +1,6 @@
 {
   "name": "mokker-utils",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Just a handful of utilities shared between some projects",
   "main": "./dist/index.js",
   "author": "Cory Logan",

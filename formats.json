@@ -20,21 +20,21 @@
     }
   },
   {
-    "name": "tablet",
-    "prettyName": "Tablet Portrait",
-    "viewport": {
-      "width": 768,
-      "height": 1024,
-      "isMobile": true,
-      "isLandscape": true
-    }
-  },
-  {
     "name": "iPhone7PlusLandscape",
     "prettyName": "iPhone 7 Landscape",
     "viewport": {
       "width": 736,
       "height": 414,
+      "isMobile": true,
+      "isLandscape": true
+    }
+  },
+  {
+    "name": "tablet",
+    "prettyName": "Tablet Portrait",
+    "viewport": {
+      "width": 768,
+      "height": 1024,
       "isMobile": true,
       "isLandscape": true
     }

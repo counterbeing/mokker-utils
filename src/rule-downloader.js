@@ -10,6 +10,7 @@ const validRulesAlreadyExist = async (path)  => {
   console.log('checking path ' + path)
   let present = await fs.pathExists(path)
   if(!(present)) return false
+  console.log('A rules file is present.')
   let startTime
   await fs.stat(path, (err, stats) => startTime = moment(stats.mtime))
   let endTime  = moment(new Date())
@@ -21,11 +22,8 @@ const validRulesAlreadyExist = async (path)  => {
 const ruleDownloader = async (opts) => {
   console.log('Checking on rules file.')
   let filePath
-  if (opts && opts.dir) {
-    filePath = join(opts.dir, fileName)
-  } else {
-    filePath = fileName
-  }
+  if (opts && opts.dir) filePath = join(opts.dir, fileName)
+  else filePath = fileName
 
   if(await validRulesAlreadyExist(filePath)) return
 

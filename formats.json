@@ -38,5 +38,15 @@
       "isMobile": true,
       "isLandscape": true
     }
+  },
+  {
+    "name": "inAppPortrait",
+    "prettyName": "In App",
+    "viewport": {
+      "width": 0,
+      "height": 0,
+      "isMobile": true,
+      "isLandscape": false
+    }
   }
 ]
